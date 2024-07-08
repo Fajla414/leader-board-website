@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f1fd;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar img{
+    width: 30px;
+}
+
+.navbar-brand{
+    display: flex;
+    /* align-items: center; */
+}
+
+.navbar-brand h5{
+    padding-left: .8rem;
+}
+
+.navbar-nav li {
+    padding-left: 33px !important;
+}
+
+.player-section img{
+    width: 37px;
+}
+.col-md-4 {
+    display: flex;
+    
+}
+
+.col-md-4 h6{
+    padding-left: 1.2rem;
+}
+
+ .col-md-6{
+    display: flex;
+    align-items: center;
+}
+
+.courses-section img{
+    width: 408px;
+}
+.blog-section img{
+    width: 265px;
+    
+}
+
+.text-danger{
+    
+    font-size: smaller;
+}
+
+.course-img-title{
+    padding-left: 1.2rem;
+}
+
+.text-smaller{
+    font-size: smaller;
+}
+
+.course-icon{
+    padding-left: 1.2rem;
+    justify-content: space-between;
+}
+
+.course-icon a i.warning{
+    color: orange;
+}
+
+.course-icon a i.secondary{
+    color: #e4e4e4a3;
+}
+
+.course-icon-time{
+    background-color: rgba(244, 36, 36, 0.253);
+    width: 96px;
+    height: 29px;
+    padding: 5px 10px;
+    border-radius: 24px;
+}
+
+footer{
+    height: 50px;
+    background-color: rgb(166, 135, 135);
+}
+
+footer p{
+    text-align: center;
+    line-height: 45px;
+    color: white;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.hover:hover{
+    background-color: #f9f1fdea;;
+    transition: .1s ease all;
+}
